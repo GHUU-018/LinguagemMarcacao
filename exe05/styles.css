@@ -1,0 +1,45 @@
+/* Seletor universal */
+* {
+    /* zera a margem do documento  */
+    margin: 0%;
+    /* gera um espaçamento interno */
+    padding: 0%;
+
+}
+.titulo{
+    margin-left: 600px;
+}
+.linha1{
+    margin-left: 1000px;
+
+}
+.img-principal{
+    /* margin: 150px 400px 450px 400px; */
+    margin: 0 auto;
+    width: 1480px;
+    height: 500px;
+    opacity: 60%;
+}
+.link{
+    margin-left: 1000px;
+background-color: darkgray;
+color: black;
+border-radius: 3px;
+border: 0;
+opacity: 100%;
+
+}
+.link1{
+    background-color: darkgray;
+color: black;
+border-radius: 3px;
+border: 0;
+opacity: 100%;
+}
+.link2{
+    background-color: darkgray;
+color: black;
+border-radius: 3px;
+border: 0;
+opacity: 100%;
+}
