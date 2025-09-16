@@ -1,0 +1,54 @@
+.div1{
+    background-color: blue;
+}
+.div2{
+    background-color: cornflowerblue;
+}
+.conteiner{
+    border: 2px solid black;
+    /* limitar o tamanho do documento */
+    max-width: 400px;
+    margin: 0 auto;
+    /* possiblitar a flexibilização  */
+    display: flex;
+}
+.img-tamanho{
+    width: 150px;
+    height: 150px;
+
+}
+.alinhar_direita{
+    display: flex;
+justify-content: right;
+}
+.alinhar_centro{
+    display: flex;
+    justify-content: center;
+}
+.alinhar_esquerda{
+    display: flex;
+    justify-content: left;
+}
+.alinhar_entre{
+    display: flex;
+    /* aloca os elementos nas pontas e ajusta os elementos do centro */
+    justify-content: space-between;
+}
+.alinhar_redor{
+    display: flex;
+    /* distribui os itens com espaço ao redor deles */
+    justify-content: space-around;
+}
+.alinhar_coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quebra_linha{
+    display: flex;
+    /* colocar espaços entre eles  */
+    gap: 10px;
+    /* quebrar os elementos pra outra linha caso não haja espaço sufiente */
+    flex-wrap: wrap;
+    
+}
