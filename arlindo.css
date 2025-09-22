@@ -1,15 +1,31 @@
+    /* <p><a href=""></a></p>
+<!-- CSS -->
+ <h1{
+    color: #333;
+    font-size: 12px;
+    text
+ }
+<h1></h1>
+ <!-- aplicar a cor apenas da linha -->
+ <p style="background-color: blueviolet;">Css inline</p>
+
+ <!-- link css -->
+  <link rel="stylesheet" href="./styles.css"> */
+
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .card{
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     border: 1px solid rgb(222, 251, 57);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgb(65, 0, 82, 0.8);
     font-family: Arial, Helvetica, sans-serif;
 transition: transform 0.3s ease;
 flex: 0 -1 auto;
-}
-.card:hover{
-    transform:scale(1.1)
 }
 .card-imagem{
     display: flex;
@@ -18,7 +34,7 @@ flex: 0 -1 auto;
 }
 .card-imagem > img{
     max-width: 100%;
-    height: 150px;
+    height: 50pxpx;
 }
 .card-imagem > figcaption{
     font-size: 0.8rem;
@@ -26,9 +42,13 @@ flex: 0 -1 auto;
     text-align: center;
     color: #555;
 }
-.card_cabessario{
-    padding: 10px;
-
+.card:hover{
+    transform:scale(1.1)
+}
+.nomeexe01{
+       display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
 }
 .card_rodapé{
     background-color: #afa8a8;
@@ -53,10 +73,6 @@ padding: 5px 6px;
 }
 .card_conteiner{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-gap: 0.4rem;
-height: 500px;
-margin-left: 5px;
-overflow-x: auto;
+    justify-content: center;
+    align-items: center;
 }
