@@ -1,0 +1,27 @@
+header {
+  display: flex;                 
+  background-color: black;
+  padding: 20px 30px; 
+  margin-left: 30px;  
+  margin-right: 30px;
+  width: 768px;
+
+}
+.cabecalho {
+  display: flex;                 
+  justify-content: space-between; 
+  align-items: center;           
+  width: 100%;                  
+}
+.logo {
+     vertical-align: middle;
+    margin-left: 1em;
+    width: 46px;
+}
+
+.menu a {
+  color: blue;
+  text-decoration: none;
+  margin-left: 30px;             /* Espaço entre os links */
+  font-weight: bold;
+}

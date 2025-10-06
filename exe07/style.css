@@ -1,0 +1,156 @@
+:root {
+    --cor-vermelho-ifood: #ea1d2c;
+    --cor-cinza-texto: #575757;
+    --cor-cinza-borda: #e2e2e2;
+    --cor-fundo: #f7f7f7;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-cinza-texto);
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--cor-cinza-borda);
+}
+
+/* Container principal (logo+menu à esquerda / botões à direita) */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo + menu (lado esquerdo) */
+.alinhado {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    height: 10vh;
+}
+
+/* Navegação */
+.navegacao {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.item {
+    text-decoration: none;
+    color: var(--cor-cinza-texto);
+    font-weight: 600;
+    padding: 8px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.item:hover,
+.item:focus {
+    color: green;
+    border-bottom-color: green;
+}
+
+/* Botões (lado direito) */
+.acao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao-entrar {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao-participar {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao-participar:hover {
+    background-color: green;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+/* .banner_imagem{
+    background-image: url("../../img/baner\ starbucks.png");
+} */
+ .banner_texto{
+background-color: rgb(212, 233, 228);
+margin-top: 1rem;
+height: 25vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.5rem;
+justify-content: center;
+ }
+ .banner_texto p{
+text-align: center;
+ }
+ .banner_tagA{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px;
+    margin-top: 5px;
+ }
+ .banner3{
+    display: flex;
+    margin-top: 5px;
+ }
+ .tamanho{
+    width: 50%;
+height: 550px;
+object-fit: cover;
+ }
+ .estilo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 233, 228);
+ }
+ .texto-alinhado{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+ }
+
+ .comida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

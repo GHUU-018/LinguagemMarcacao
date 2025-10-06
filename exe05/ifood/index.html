@@ -1,31 +1,271 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ifood - Delivery de comida</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Utilizando uma tag semantica para criar um cabecalho -->
-     <header class="cabecalho">
+    <header class="cabecalho">
         <div class="container">
-        <div>
-            <img src="https://logodownload.org/wp-content/uploads/2017/05/ifood-logo-0.png" alt="" class="logo">
-           <!-- Utilizando um nav, para adicionar os menus navegação -->
-            <nav>
-                <a href="#"> Restaurante </a>
-                <a href="#"> Mercado </a>
-                <a href="#"> Bebidas </a>
-                <a href="#"> Farmacia </a>
-                <a href="#"> Pet-sho </a>
+            <div>
+                <img src="https://logodownload.org/wp-content/uploads/2017/05/ifood-logo-0.png" alt="" class="logo">
+                <!-- Utilizando um nav, para adicionar os menus navegação -->
+                <nav class="navegação">
+                    <a href="#" class="item"> Restaurante </a>
+                    <a href="#" class="item"> Mercado </a>
+                    <a href="#" class="item"> Bebidas </a>
+                    <a href="#" class="item"> Farmacia </a>
+                    <a href="#" class="item"> Pet-shop </a>
+                </nav>
+            </div>
+            <div>
+                <input type="text" placeholder="busque por item ou loja" class="buscar">
+            </div>
+            <div class="localizacao">
+                <span>📍</span>
+                <input type="text" value="Andradina, SP" class="texto-local">
+            </div>
+            <div class="acao">
+                <a href="#" class="criar-conta">criar-conta</a>
+                <button class="botao-entrar"> entrar</button>
+            </div>
+    </header>
+    <section class="secao-comidas">
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/transparente.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Almoço</p>
+            </div>
+        </article>
+        <!-- promoção -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/promo.jpg" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Promoção</p>
+            </div>
+        </article>
+        <!-- mercado -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/mercado.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Mercado</p>
+            </div>
+        </article>
+        <!-- bebidas -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/bebidas.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Bebidas</p>
+            </div>
+        </article>
+        <!-- marmitas -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/marmita.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>marmitas</p>
+            </div>
+        </article>
+        <!-- pizza -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/pizza.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Pizza</p>
+            </div>
+        </article>
+    </section>
+    <!-- titulo dos restaurantes -->
+    <section class="famosos">
+        <h1 class="title">restaurantes famosos</h1>
+        <a href="#" class=" item ver-mais"> Ver Mais </a>
 
-            </nav>
+    </section>
+    <!-- os itens -->
+
+    <article class="lojas">
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/maczinho.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Mc Donald's</p>
+            </div>
+        </article>
+        </section>
+        <!--  -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/burguer king.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Burguer King</p>
+            </div>
+        </article>
+        </section>
+        <!--  -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/habibs.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Habibi's</p>
+            </div>
+        </article>
+        </section>
+        <!--  -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/outback.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>Outback</p>
+            </div>
+        </article>
+        </section>
+        <!--  -->
+        <article class="card">
+            <a href="#">
+                <figure class="card-imagem">
+                    <img src="../../../img/china_in_box.png" alt="">
+                </figure>
+            </a>
+            <div>
+                <p>China in Box</p>
+            </div>
+        </article>
+        </section>
+    </article>
+    <!-- SEGUNDA PARTE -->
+
+    <!-- titulo dos restaurantes -->
+    <section class="famosos">
+        <h1 class="title">Nossas melhores promoções</h1>
+        <a href="#" class=" item ver-mais"> Ver Mais </a>
+
+    </section>
+    <!-- os itens -->
+
+    <article class="lojas">
+        <!-- PROMO 1 -->
+        <article class="card-promocao promo">
+            <a href="#">
+                <figure class="card-imagem-promo">
+                    <img src="../../../img/maczinho.png" alt="">
+                </figure>
+            </a>
+            <div class="promo-texto">
+                <p class="promo">Pizza Grande 2 Sabores</p>
+
+                <p class="promo-loja">Mc Donald's</p>
+
+                <p class="promo">R$ 59,90</p>
+            </div>
+        </article>
+        <!-- PROMO 2 -->
+        <article class="card-promocao promo">
+            <a href="#">
+                <figure class="card-imagem-promo">
+                    <img src="../../../img/familia.webp
+                    " alt="">
+                </figure>
+            </a>
+            <div class="promo-texto">
+                <p class="promo">Hamburguer Artesanal familia</p>
+
+                <p class="promo-loja">Burguer King</p>
+
+                <p class="promo">R$ 79,90</p>
+            </div>
+        </article>
+
+        <!-- PROMO 3 -->
+        <article class="card-promocao promo">
+            <a href="#">
+                <figure class="card-imagem-promo">
+                    <img src="../../../img/açai.jpeg" alt="">
+                </figure>
+            </a>
+            <div class="promo-texto">
+                <p class="promo">Açai 1L</p>
+
+                <p class="promo-loja">Rei do Açai</p>
+
+                <p class="promo">R$ 32,80</p>
+            </div>
+        </article>
+    </article>
+    <footer class="rodape-principal">
+        <div class="container">
+            <div class="coluna-rodape">
+                <h3>ifood</h3>
+                <ul>
+                    <li><a href="">Site institucional</a></li>
+                    <li><a href="">fale conosco</a></li>
+                    <li><a href="">Carreiras</a></li>
+                    <li><a href="">Ifood shop</a></li>
+                </ul>
+            </div>
+
+        <div class="coluna-rodape">
+            <h3>Descubra</h3>
+            <ul>
+                <li><a href="">Cadastre seu Restaurante</a></li>
+                <li><a href="">ifood para entregadores</a></li>
+                <li><a href="">Blog Ifood</a></li>
+            </ul>
         </div>
-
-     </header>
+        </div>
+        <div class="coluna-rodape">
+            <h3>Social</h3>
+            <div class="icones-sociais">
+                <a href="">FB</a><a href="">TW</a><a href="">IG</a><a href="">YT</a>
+            </div>
+        </div>
+        </div>
+     </div>
+    </footer>
 </body>
+
+
 </html>
