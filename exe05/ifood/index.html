@@ -36,10 +36,42 @@
                 <input type="text" value="Andradina, SP" class="texto-local">
             </div>
             <div class="acao">
-                <a href="#" class="criar-conta">criar-conta</a>
+                <a href="#modal-cadastro" class="criar-conta">criar-conta</a>
                 <button class="botao-entrar"> entrar</button>
             </div>
+        </div>
+        <div id="modal-cadastro" class="modal-container">
+            <div class="modal-conteudo">
+                <div class="modal-cabecalho">
+                <div>
+                    <h2>Criar Conta</h2>
+                    <a href="" class="fechar">&times;</a>
+                </div>
+                <form action="" class="formulario">
+
+                    <div class="grupo-form">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="email">E-mail</label>
+                        <input id="email"type="email" placeholder="joaodasneves@ifood.com" required>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" placeholder="crie uma senha forte" required>
+                    </div>
+                    <a href="#modal-conteudo" class="criar-conta">criar-conta</a>
+                    <button type="submit">Criar Conta</button>
+                </form>
+                <div class="modal-rodape">
+                    <p>Ja possui uma conta? <a href="">Entrar</a></p>
+                </div>
+            </div>
+        </div>
     </header>
+
+
     <section class="secao-comidas">
         <article class="card">
             <a href="#">
@@ -247,14 +279,14 @@
                 </ul>
             </div>
 
-        <div class="coluna-rodape">
-            <h3>Descubra</h3>
-            <ul>
-                <li><a href="">Cadastre seu Restaurante</a></li>
-                <li><a href="">ifood para entregadores</a></li>
-                <li><a href="">Blog Ifood</a></li>
-            </ul>
-        </div>
+            <div class="coluna-rodape">
+                <h3>Descubra</h3>
+                <ul>
+                    <li><a href="">Cadastre seu Restaurante</a></li>
+                    <li><a href="">ifood para entregadores</a></li>
+                    <li><a href="">Blog Ifood</a></li>
+                </ul>
+            </div>
         </div>
         <div class="coluna-rodape">
             <h3>Social</h3>
@@ -263,7 +295,7 @@
             </div>
         </div>
         </div>
-     </div>
+        </div>
     </footer>
 </body>
 
